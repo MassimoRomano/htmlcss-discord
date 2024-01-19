@@ -29,6 +29,7 @@
 #site_header{
     background-color: var(--discord-primary);
     color: white;
+    padding: 10px 0px 10px;
 }
 
 .d-flex{
@@ -83,9 +84,23 @@
     height: 50vh;
     color: white;
     text-align: center;
-    padding: 15%;
+    padding: 7% 20% 25%;
     align-items: center;
+    position: relative;
 
+}
+
+.where{
+    padding: 0 50px 40px
+    px
+     50px;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 0px 20px 50px 20px ;
 }
 
 button{
@@ -98,9 +113,6 @@ button{
 
 }
  
-p{
-    padding: 10px;
-}
 
 #open_discord{
     margin: 5px;
@@ -113,7 +125,36 @@ p{
 }
 
 .study{
-    
+    gap: 10px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h2{
+   padding-top:20%;
+   font-size: 40px;
+   font-weight: bolder;
+}
+
+.create{
+    font-weight: bold;
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.found{
+    gap: 10px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f6f6f6;
+    flex-direction: row-reverse;
+}
+
+.fandom{
+    gap: 10px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
