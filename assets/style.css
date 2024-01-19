@@ -1,0 +1,84 @@
+/* #region common */
+
+:root{
+    --discord-primary: rgba(48,97,225,1);
+    --discord-dark:rgba(34,39,43,1);
+    --discord-light:rgba(246,246,246,1);
+}
+
+
+
+.debug{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* #endregion common */
+
+/* #region debug common */
+
+.debug #site_header{
+    
+
+}
+
+/* #endregion debug common */
+
+/* #region site header */
+#site_header{
+    background-color: var(--discord-primary);
+    
+
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+     justify-self: start;
+     flex-grow: 2;
+     
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+    
+    
+
+.action{
+    flex-grow: auto;
+    text-align: center;
+    justify-self: end;
+    background-color: white;
+    color: rgb(35,39,42);
+    flex-grow: 1;
+}
+
+
+
+/* #endregion site header */
+
+
+
+#site_main{
+
+}
+
+
+#site_footer{
+
+}
