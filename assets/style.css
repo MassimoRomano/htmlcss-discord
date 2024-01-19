@@ -8,45 +8,43 @@
 
 
 
-.debug{
+*{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
+
+
+
 
 .container{
     width: 80%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* #endregion common */
 
-/* #region debug common */
-
-.debug #site_header{
-    
-
-}
-
-/* #endregion debug common */
-
 /* #region site header */
 #site_header{
     background-color: var(--discord-primary);
-    
-
+    color: white;
 }
 
 .d-flex{
     display: flex;
-    align-items: center;
+}
 
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .logo{
      justify-self: start;
-     flex-grow: 2;
      
 }
 
@@ -75,10 +73,62 @@
 
 
 #site_main{
+    
+}
 
+
+.banner{
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 50vh;
+    color: white;
+    text-align: center;
+    padding: 15%;
+    align-items: center;
+
+}
+
+button{
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    background-color: white;
+    font-weight: bolder;
+
+}
+ 
+p{
+    padding: 10px;
+}
+
+#open_discord{
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(44, 44, 44);
+    font-weight: bolder;
+    color: white;
+}
+
+.study{
+    
 }
 
 
 #site_footer{
 
+}
+
+.section {
+    padding: 2em 0;
+}
+
+.big {
+    width: 60%;
+}
+
+.small {
+    width: 30%;
 }
