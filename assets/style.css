@@ -54,6 +54,8 @@
     display: flex;
     gap: 15px;
     text-align: center;
+    font-weight: bold;
+    font-size: medium;
 }
     
     
@@ -82,29 +84,27 @@
     background-image: url(./img/jumbo.png);
     background-size: cover;
     height: 50vh;
+    width: 100%;
     color: white;
     text-align: center;
     padding: 7% 20% 25%;
     align-items: center;
-    position: relative;
 
 }
 
 .where{
-    padding: 0 50px 40px
-    px
-     50px;
-    font-size: 20px;
+    padding: 0 50px 40px 50px;
+    font-size: 25px;
 }
 
 h1{
-    font-size: 50px;
-    font-weight: 1000;
+    font-size: 70px;
+    font-weight: bolder;
     margin: 0px 20px 50px 20px ;
 }
 
 button{
-    margin: 5px;
+    margin :25px;
     padding: 10px 20px;
     border-radius: 20px;
     border: 0;
@@ -130,6 +130,10 @@ button{
     padding-bottom: 120px;
 }
 
+.small{
+    padding: 0px 25px 20px 20px;
+}
+
 h2{
    padding-top:20%;
    font-size: 40px;
@@ -149,6 +153,7 @@ h2{
     padding-bottom: 120px;
     background-color: #f6f6f6;
     flex-direction: row-reverse;
+    
 }
 
 .fandom{
@@ -172,4 +177,15 @@ h2{
 
 .small {
     width: 30%;
+}
+
+.tecnology{
+    padding: 120px 120px;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.hello{
+    font-size: 20px;
+    font-weight: 300px;
 }
