@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 
 
@@ -29,7 +30,7 @@
 #site_header{
     background-color: var(--discord-primary);
     color: white;
-    padding: 10px 0px 10px;
+    padding: 3px 0px 3px;
 }
 
 .d-flex{
@@ -76,18 +77,21 @@
 
 
 #site_main{
-    
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
 
 
 .banner{
     background-image: url(./img/jumbo.png);
     background-size: cover;
-    height: 50vh;
-    width: 100%;
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: auto;
     color: white;
     text-align: center;
-    padding: 7% 20% 25%;
+    padding: 2% 25%;
     align-items: center;
 
 }
@@ -100,7 +104,7 @@
 h1{
     font-size: 70px;
     font-weight: bolder;
-    margin: 0px 20px 50px 20px ;
+    padding-bottom: 5%;
 }
 
 button{
@@ -126,12 +130,18 @@ button{
 
 .study{
     gap: 10px;
-    padding-top: 120px;
     padding-bottom: 120px;
+    padding-top: 120px;
+    
+}
+.big{
+    flex-grow: 4;
 }
 
 .small{
     padding: 0px 25px 20px 20px;
+    flex-grow: auto;
+    width: 30%;
 }
 
 h2{
@@ -153,8 +163,11 @@ h2{
     padding-bottom: 120px;
     background-color: #f6f6f6;
     flex-direction: row-reverse;
-    
+    justify-items:center ;
+    align-items: center;
+    text-align: center;
 }
+
 
 .fandom{
     gap: 10px;
@@ -164,6 +177,8 @@ h2{
 
 
 #site_footer{
+    background-color: var(--discord-dark);
+    height: 200px;
 
 }
 
@@ -171,21 +186,34 @@ h2{
     padding: 2em 0;
 }
 
-.big {
-    width: 60%;
-}
-
-.small {
-    width: 30%;
-}
 
 .tecnology{
     padding: 120px 120px;
     background-color: #f6f6f6;
+    align-self: center;
     text-align: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .hello{
     font-size: 20px;
     font-weight: 300px;
+}
+
+.just{
+    align-self: center;
+}
+
+.star{
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 5% 5%;
+    
+}
+
+footer{
+    
 }
