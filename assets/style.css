@@ -67,7 +67,7 @@
     justify-self: end;
     background-color: white;
     color: rgb(35,39,42);
-    flex-grow: 1;
+    
 }
 
 
@@ -176,11 +176,6 @@ h2{
 }
 
 
-#site_footer{
-    background-color: var(--discord-dark);
-    height: 200px;
-
-}
 
 .section {
     padding: 2em 0;
@@ -214,6 +209,93 @@ h2{
     
 }
 
-footer{
+
+
+#site_footer{
+    background-color: var(--discord-dark);
+    padding: 1%;
+    flex-direction: row;
     
+
+}
+
+.languace{
+   align-self: flex-start;
+}
+
+.foot{
+    padding: 5% 5%;
+    align-self: stretch;
+    color: white;
+    
+
+}
+
+ul{
+    list-style: none;
+    text-align:left ;
+}
+
+li{
+    margin-bottom: 6%;
+}
+
+.color{
+    color: var(--discord-primary);
+    margin-bottom: 30%;
+
+}
+
+.distance{
+    width: 40px;
+}
+
+.prodact{
+       
+   
+}
+
+
+.company{
+    
+    
+}
+
+.resource{
+    
+    
+
+}
+
+.norme{
+    
+   
+}
+
+.separate{
+    background-color: var(--discord-primary);
+    height: 1px;
+    width: 80%;
+    margin: 5% 5%;
+
+}
+
+.final{
+    justify-content: space-between;
+    
+    
+}
+
+.open_discord{
+    text-align: center;
+    justify-self: end;
+    background-color:var(--discord-primary);
+    color: white;
+    justify-self: end;
+    align-self: baseline;
+}
+
+.logo_final{
+    justify-self: start
+
 }
