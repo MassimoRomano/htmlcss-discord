@@ -1,14 +1,14 @@
 /* #region common */
 
-:root{
-    --discord-primary: rgba(48,97,225,1);
-    --discord-dark:rgba(34,39,43,1);
-    --discord-light:rgba(246,246,246,1);
+:root {
+    --discord-primary: rgba(48, 97, 225, 1);
+    --discord-dark: rgba(34, 39, 43, 1);
+    --discord-light: rgba(246, 246, 246, 1);
 }
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +18,7 @@
 
 
 
-.container{
+.container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
@@ -27,13 +27,13 @@
 /* #endregion common */
 
 /* #region site header */
-#site_header{
+#site_header {
     background-color: var(--discord-primary);
     color: white;
     padding: 3px 0px 3px;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
@@ -45,12 +45,12 @@
     justify-content: space-between;
 }
 
-.logo{
-     justify-self: start;
-     
+.logo {
+    justify-self: start;
+
 }
 
-.menu{
+.menu {
     list-style: none;
     display: flex;
     gap: 15px;
@@ -58,16 +58,16 @@
     font-weight: bold;
     font-size: medium;
 }
-    
-    
 
-.action{
+
+
+.action {
     flex-grow: auto;
     text-align: center;
     justify-self: end;
     background-color: white;
-    color: rgb(35,39,42);
-    
+    color: rgb(35, 39, 42);
+
 }
 
 
@@ -75,15 +75,16 @@
 /* #endregion site header */
 
 
+ /* #region site_main */
 
-#site_main{
+#site_main {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
 
-.banner{
+.banner {
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,19 +97,19 @@
 
 }
 
-.where{
+.where {
     padding: 0 50px 40px 50px;
     font-size: 25px;
 }
 
-h1{
+h1 {
     font-size: 70px;
     font-weight: bolder;
     padding-bottom: 5%;
 }
 
-button{
-    margin :25px;
+button {
+    margin: 25px;
     padding: 10px 20px;
     border-radius: 20px;
     border: 0;
@@ -116,9 +117,9 @@ button{
     font-weight: bolder;
 
 }
- 
 
-#open_discord{
+
+#open_discord {
     margin: 5px;
     padding: 10px 20px;
     border-radius: 20px;
@@ -128,48 +129,49 @@ button{
     color: white;
 }
 
-.study{
+.study {
     gap: 10px;
     padding-bottom: 120px;
     padding-top: 120px;
-    
+
 }
-.big{
+
+.big {
     flex-grow: 4;
 }
 
-.small{
+.small {
     padding: 0px 25px 20px 20px;
     flex-grow: auto;
     width: 30%;
 }
 
-h2{
-   padding-top:20%;
-   font-size: 40px;
-   font-weight: bolder;
+h2 {
+    padding-top: 20%;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
-.create{
+.create {
     font-weight: bold;
     margin: 0;
     font-size: 20px;
 }
 
 
-.found{
+.found {
     gap: 10px;
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #f6f6f6;
     flex-direction: row-reverse;
-    justify-items:center ;
+    justify-items: center;
     align-items: center;
     text-align: center;
 }
 
 
-.fandom{
+.fandom {
     gap: 10px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -182,7 +184,7 @@ h2{
 }
 
 
-.tecnology{
+.tecnology {
     padding: 120px 120px;
     background-color: #f6f6f6;
     align-self: center;
@@ -191,111 +193,109 @@ h2{
     gap: 10px;
 }
 
-.hello{
+.hello {
     font-size: 20px;
     font-weight: 300px;
 }
 
-.just{
+.just {
     align-self: center;
 }
 
-.star{
+.star {
     background-image: url(./img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    text-align: center;
-    margin: 5% 5%;
-    
+    padding: 3%;
+    margin: 10%;
 }
 
+h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.download {
+    margin: 5px;
+    padding: 16px 32px;
+    border-radius: 28px;
+    border: 0;
+    background-color: var(--discord-primary);
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+/* #endregion site_main */
 
 
-#site_footer{
+/* #region site footer */
+
+#site_footer {
     background-color: var(--discord-dark);
+    width: ;
     padding: 1%;
     flex-direction: row;
     
-
 }
 
-.languace{
-   align-self: flex-start;
+.languace {
+    background-size: contain;
+    height: 16px;
+    width: 24px;
+    margin-right: 8px;
 }
 
-.foot{
-    padding: 5% 5%;
-    align-self: stretch;
+.foot {
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: white;
-    
 
 }
 
-ul{
+ul {
     list-style: none;
-    text-align:left ;
+    text-align: left;
 }
 
-li{
+li {
     margin-bottom: 6%;
 }
 
-.color{
+.color {
     color: var(--discord-primary);
     margin-bottom: 30%;
 
 }
 
-.distance{
+.distance {
     width: 40px;
-}
-
-.prodact{
-       
-   
-}
-
-
-.company{
-    
     
 }
 
-.resource{
-    
-    
 
-}
-
-.norme{
-    
-   
-}
-
-.separate{
+.separate {
     background-color: var(--discord-primary);
     height: 1px;
-    width: 80%;
-    margin: 5% 5%;
+    width: 100%;
+    margin-bottom: 3%;
 
 }
 
-.final{
-    justify-content: space-between;
-    
-    
-}
-
-.open_discord{
+.open_discord {
     text-align: center;
-    justify-self: end;
-    background-color:var(--discord-primary);
+    background-color: var(--discord-primary);
     color: white;
-    justify-self: end;
-    align-self: baseline;
+    
+    
 }
 
 .logo_final{
-    justify-self: start
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
 }
+
+/* #endregion site footer */
