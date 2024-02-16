@@ -4,167 +4,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Discord</title>
 </head>
-<!-- logo-link-login header -->
 
-<body class="debug">
-    <header id="site_header">
-        <nav class="container d-flex space-between align-center">
-            <div>
-                <img class="logo" src="./assets/img/logo.svg" alt="img discord">
-            </div>
-            <div>
-                <ul class="menu">
-                    <li>Scarica</li>
-                    <li>Perche' Discord</li>
-                    <li>Nitro</li>
-                    <li>Sicurezza</li>
-                    <li>Assistenza</li>
-                </ul>
-            </div>
-            <div>
-                <button class="actions">Accedi</button>
-            </div>
-        </nav>
+<body>
+    <header id="site-header">
+        <div class="container">
+            <nav class="d-flex row between align-items">
+                <div class="logo">
+                    <img src="./assets/img/logo.svg" alt="">
+                </div>
+                <div class="menu">
+                    <ul class="list d-flex row ">
+                        <li><a href="">Scarica</a></li>
+                        <li><a href="">Nitro</a></li>
+                        <li><a href="">Scopri</a></li>
+                        <li><a href="">Sicurezza</a></li>
+                        <li><a href="">Assistenza</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Lavora con noi</a></li>
+                    </ul>
+                </div>
+                <div class="login">
+                    <a class="btn-login " href="">Apri Discord</a>
+                </div>
+            </nav>
+        </div>
     </header>
-
-    <!--container section main  -->
-
-    <main id="site_main">
-        <div class="banner">
-            <div class=" ">
-                <h1>Il tuo posto per parlare</h1>
-                <p class="where">... dove far parte di un club scolastico, un gruppo di gamer, una community artistica
-                    mondiale o dove trascorrere tempo assieme a un piccolo gruppo di amici: uno spazio in cui è più
-                    facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
-                <button>Scarica per Windows</button>
-                <button id="open_discord">Apri Discord nel tuo browser</button>
-            </div>
-        </div>
-        <div class="study">
-            <div class="container d-flex space-between">
-                <div class="big"><img src="./assets/img/item1.svg" alt="study group"></div>
-                <div class="small">
-                    <h2>Crea uno spazio su invito in cui sentirti partecipe</h2>
-                    <p class="create">I server Discord sono organizzati in canali tematici in cui puoi collaborare,
-                        condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
+    <main>
+        <section class="jumbotron">
+            <div class="container">
+                <div class="banner d-flex column text-center j-center align-items text">
+                    <h1>IMMAGINA UNO SPAZIO...</h1>
+                    <p class="where">... dove far parte di un club scolastico, un gruppo di gamer, una community
+                        artistica
+                        mondiale o dove trascorrere tempo assieme a un piccolo gruppo di amici: uno spazio in cui è più
+                        facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                    </p>
+                    <div class="btn-open-down d-flex row">
+                        <a class="down" href=""><i class="fa-solid fa-download"></i>Scarica per Windows</a>
+                        <a class="open" href="">Apri discord nel tuo browser</a>
+                    </div>
                 </div>
             </div>
-            <div class="found ">
-                <div class="container d-flex space-between">
-                    <div class="small">
+        </section>
+
+        <section class="contanitor-create">
+            <div class="container-2">
+                <div class="d-flex wrap gap">
+                    <div class=" big">
+                        <img width="100%" src="./assets/img/item1.svg" alt="">
+                    </div>
+                    <div class="small d-flex column ">
+                        <h2>Crea uno spazio su invito in cui sentirti partecipe</h2>
+                        <p>
+                            I server Discord sono organizzati in canali tematici in cui puoi collaborare,
+                            condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contanitor-where">
+            <div class="container-2">
+                <div class="d-flex reverse wrap gap">
+                    <div class=" big">
+                        <img width="100%" src="./assets/img/item2.svg" alt="">
+                    </div>
+                    <div class="small d-flex column col-4 ">
                         <h2>Dove trovarsi è facile</h2>
-                        <p class="create">Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server
-                            possono vedere sei li e unirsi istantaneamente senza dover chiamare</p>
-                    </div>
-                    <div class="big"><img src="./assets/img/item2.svg" alt="study group">
+                        <p>
+                            LANDING_FEATURE_HANGOUT_BODY
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="fandom">
-                <div class="container d-flex space-between">
-                    <div class="big"><img src="./assets/img/item3.svg" alt="study group">
+        </section>
+
+        <section class="contanitor-fandom">
+            <div class="container-2">
+                <div class="d-flex wrap gap">
+                    <div class=" big">
+                        <img width="100%" src="./assets/img/item3.svg" alt="">
                     </div>
-                    <div class="small">
+                    <div class="small d-flex column">
                         <h2>Da pochi a un fandom</h2>
-                        <p class="create">Dai inizio a una community con strumenti di moderazione e accesso ai membri
-                            personalizzabile. Concedi ai membri poteri speciali, crea canali privati e molto altro.</p>
+                        <p>
+                            Dai inizio a una community con strumenti di moderazione e accesso ai membri
+                            personalizzabile. Concedi ai membri poteri speciali, crea canali privati e molto altro.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="tecnology d-flex space-between">
-            <h1>TECNOLOGIA AFFIDABILE PER TENERSI IN CONTATTO</h1>
-            <p class="hello">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza.
-                Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la
-                condivisione schermo.</p>
-            <div class="just"><img src="./assets/img/item4-big.svg" alt="study group">
-            </div>
-            <div class="star ">
-                <div class="container">
-                    <h3>Pronto a iniziare la tua avventura?</h3>
+        </section>
+
+        <section class="contanitor-just">
+            <div class="container">
+                <div class="chillin d-flex column j-center text-center ">
+                    <h2 class="space">
+                        TECNOLOGIA AFFIDABILE PER TENERSI IN CONTATTO
+                    </h2>
+                    <p>
+                        Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza.
+                        Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno
+                        con la
+                        condivisione schermo.
+                    </p>
+                    <div>
+                        <img src="./assets/img/item4-big.svg" alt="">
+                    </div>
+                    <h4 class="bg-star">
+                        Pronto a iniziare la tua avventura?
+                    </h4>
+                    <a href=""><i class="fa-solid fa-download"></i>Scarica per Windows</a>
+
                 </div>
             </div>
-            <div>
-                <button class="download">Scarica per Windows</button>
-            </div>
-        </div>
-        </div>
+        </section>
     </main>
 
-    <!-- section site footer -->
-
-    <footer id="site_footer">
-        <div class="foot container d-flex space-between ">
-            <div>
-                <img class="languace" src="./assets/img/ita.png" alt="">
-                italiano
+    <footer class="site-footer">
+        <div class="container">
+            <div class=" d-flex wrap ">
+                <div class="language col-2 text">
+                    <img width="20px" class="languace" src="./assets/img/ita.png" alt="">
+                    <span class="text">italiano</span><i class="fa fa-angle-down "></i>
+                    <div class="d-flex row gap space">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+                </div>
+                <div class=" col-2">
+                    <ul class="list text">
+                        <li class="color"><span>Prodotto</span></li>
+                        <li>Scarica</li>
+                        <li>Nitro</li>
+                        <li>Stato</li>
+                        <li>Elenco App</li>
+                        <li>Nuova esperienza per dispositivi mobili</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="list text">
+                        <li class="color"><span>Compagnia</span></li>
+                        <li>Chi siamo</li>
+                        <li>Lavora con noi</li>
+                        <li>Marchio</li>
+                        <li>Redazione</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="list text">
+                        <li class="color"><span>Risorse</span></li>
+                        <li>Università</li>
+                        <li>Assistenza</li>
+                        <li>Sicurezza</li>
+                        <li>Blog</li>
+                        <li>Suggerimenti</li>
+                        <li>StreamKit</li>
+                        <li>Creatori</li>
+                        <li>Community</li>
+                        <li>Sviluppatori</li>
+                        <li>Gaming</li>
+                        <li>Articoli ufficiali di terze parti</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="list text">
+                        <li class="color"><span>Norme</span></li>
+                        <li>Termini</li>
+                        <li>Privacy</li>
+                        <li>Impostazioni cookie</li>
+                        <li>Linee guida</li>
+                        <li>Riconoscimenti</li>
+                        <li>Licenze</li>
+                        <li>Informazioni sulla compagnia</li>
+                    </ul>
+                </div> 
             </div>
-            <div class="prodact distance">
-                <ul>
-                    <div class="color">Prodotto</div>
-                    <li>Scarica</li>
-                    <li>Nitro</li>
-                    <li>Stato</li>
-                    <li>Elenco App</li>
-                    <li>Nuova esperienza per dispositivi mobili</li>
-                </ul>
+            <hr class="separate">
+            <div class="d-flex row between">
+                <img src="./assets/img/logo.svg" alt="">
+                <div class="btn-disc text-center">
+                <a href="">Apri Discord</a>
             </div>
-            <div class="company distance">
-                <ul>
-                    <div class="color">Compagnia</div>
-                    <li>Chi siamo</li>
-                    <li>Lavora con noi</li>
-                    <li>Marchio</li>
-                    <li>Redazione</li>
-                    <li>Uscita autunnale</li>
-                </ul>
-
-            </div>
-            <div class="resource distance">
-                <ul>
-                    <div class="color">Risorse</div>
-                    <li>Università</li>
-                    <li>Assistenza</li>
-                    <li>Sicurezza</li>
-                    <li>Blog</li>
-                    <li>Suggerimenti</li>
-                    <li>StreamKit</li>
-                    <li>Creatori</li>
-                    <li>Community</li>
-                    <li>Sviluppatori</li>
-                    <li>Gaming</li>
-                    <li>Articoli ufficiali di terze parti</li>
-                </ul>
-
-            </div>
-            <div class="norme distance">
-                <ul>
-                    <div class="color">Norme</div>
-                    <li>Termini</li>
-                    <li>Privacy</li>
-                    <li>Impostazioni cookie</li>
-                    <li>Linee guida</li>
-                    <li>Riconoscimenti</li>
-                    <li>Licenze</li>
-                    <li>Informazioni sulla compagnia</li>
-                </ul>
 
             </div>
         </div>
-        <div>
-            <div class="separate container"></div>
-        </div>
-        <div class="final container">
-            <div class="logo_final">
-                <img src="./assets/img/logo.svg" alt="logo discord">
-                <button class="open_discord">Apri Discord</button>
-            </div>
-        </div>
+
 
     </footer>
+
 </body>
 
 </html>
